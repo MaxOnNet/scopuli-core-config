@@ -1,7 +1,7 @@
-.. _module-interfaces-config:
+.. _module-scopuli-interfaces-config:
 
-Interfaces.Config
-=================
+Scopuli.Interfaces.Config
+=========================
 
 В данном модуле распологаются классы по работе с конфигурационными файлами 4GE.
 Примеры и описание данных файлов Вы можете найти в разделе :ref:`example-config`.
@@ -15,7 +15,7 @@ Interfaces.Config
 
 Функции модуля
 --------------
-.. automodule:: Interfaces.Config
+.. automodule:: Scopuli.Interfaces.Config
     :members:
     :undoc-members:
     :private-members:

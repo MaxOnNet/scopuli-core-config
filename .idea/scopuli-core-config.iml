@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Scopuli" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Scopuli/Interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bin" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/dist" />
       <excludeFolder url="file://$MODULE_DIR$/scopuli_core_config.egg-info" />

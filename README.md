@@ -1,0 +1,2 @@
+Scopuli Core Config Library
+===========================
