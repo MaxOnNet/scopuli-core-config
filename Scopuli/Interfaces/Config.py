@@ -70,11 +70,10 @@ class Config:
             :rtype: Nothing
         """
         if use_web:
-            self.xmr_files_web = ["{0}/config.xml".format(os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../.4gain.etc'))),
-                                  "{0}/config.xml".format(os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../4gain.etc'))),
-                                  "{0}/config.xml".format(os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '/home/aitrade/4gain.etc'))),
-                                  
-                                  "{0}/config.xml".format(os.path.abspath(os.path.join('./4gain.etc')))]
+            self.xmr_files_web = ["{0}/config.xml".format(os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../../.etc'))),
+                                  "{0}/config.xml".format(os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '../.etc'))),
+                                  "{0}/config.xml".format(os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), './.etc'))),
+                                  "{0}/config.xml".format(os.path.abspath(os.path.join('.etc')))]
             self.xml_file_web = self.xmr_files_web[0]
 
             for xml_file_web in self.xmr_files_web:
